@@ -16,7 +16,7 @@ function App() {
   }, [])
 
   return (
-    <main>
+    <main className='mt-2'>
       {JSON.stringify(hotels)}
     </main>
   )
